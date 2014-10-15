@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@android:color/black" >
+
+    <ImageButton
+        android:id="@+id/dialVideoButton"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.30"
+        android:background="@drawable/button_pressed"
+        android:contentDescription="Video Call"
+        android:src="@drawable/ic_prefs_media_video"
+        android:state_enabled="false" />
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="1dip"
+        android:layout_height="24dip"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/abs__list_divider_holo_dark" />
+
+    <ImageButton
+        android:id="@+id/dialButton"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.40"
+        android:background="@drawable/btn_call"
+        android:contentDescription="Call"
+        android:src="@drawable/ic_dial_action_call"
+        android:state_enabled="false" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="1dip"
+        android:layout_height="24dip"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/abs__list_divider_holo_dark" />
+
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.30"
+        android:background="@drawable/button_pressed"
+        android:contentDescription="Delete"
+        android:src="@drawable/ic_dial_action_delete"
+        android:state_enabled="false" />
+
+</LinearLayout>
